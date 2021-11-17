@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="OCELOT">
+    <meta name="description" content="Ocelot Manifacturer">
+    <meta name="author" content="Kaan Baytan">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/index.js"></script>
+    <link rel="icon" type="image/png" href="img/OcelotLogo.ico">
+    <title>Ocelot Manifacturer</title>
+</head>
+<body onload="webSiteFirstImage()" style="background-color: rgb(255, 255, 255);">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" style="color: rgb(150, 0, 150); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" href="#">Ocelot Turismo</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: rgb(255, 0, 255);" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(255, 0, 255);" href="#">Manufacturer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" style="color: rgb(255, 0, 255);" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn my-2 my-sm-0 btn-outline-secondary" style="color: rgb(255, 0, 255);" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="rounded text-center row ml-5 mr-5 justify-content-center mt-2">
+            <button id="leftButton" onclick="leftButtonClick()" type="button" class="btn btn-outline-secondary" style="color: rgb(255, 0, 255);"><</button>
+            <img id="slider" src="img/OcelotLogo.ico" class="img-fluid col-5" alt="OcelotCarsImage">
+            <button id="rightButton" onclick="rightButtonClick()" type="button" class="btn btn-outline-secondary" style="color: rgb(255, 0, 255);">></button>
+        </div>
+    </div>
+        <footer class="mt-2 mb-2">
+            <h1 class="text-uppercase text-sm-center">Recommended for you</h1>
+            <div id="cards" class="card-group">
+                <div class="card ml-2 mr-2 border border-dark">
+                  <img id="cards-img" class="card-img-top" src="img/OcelotLogo.ico" alt="Card image cap">
+                  <div class="card-body">
+                        <h5 id="cards-title" class="card-title">OCELOT</h5>
+                        <p id="cards-description" class="card-text">Ocelot Manifacturer </p>
+                  </div>
+                </div>
+                <div class="card ml-2 mr-2 border border-dark">
+                  <img id="cards-img" class="card-img-top" src="img/OcelotLogo.ico" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="cards-title" class="card-title">OCELOT</h5>
+                    <p id="cards-description" class="card-text">Ocelot Manifacturer</p>
+                  </div>
+                </div>
+                <div class="card ml-2 mr-2 border border-dark">
+                  <img id="cards-img" class="card-img-top" src="img/OcelotLogo.ico" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="cards-title" class="card-title">OCELOT</h5>
+                    <p id="cards-description" class="card-text">Ocelot Manifacturer</p>
+                  </div>
+                </div>
+              </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
